@@ -1,0 +1,40 @@
+li {
+  list-style-type: none;
+}
+.music-image {
+  width: 200px;
+}
+.music-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px;
+}
+.image-container {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.delete-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 35px;
+  width: 100px;
+}
+.play-container {
+  margin-left: 20px;
+  width: 50%;
+  color: white;
+}
+.genre {
+  color: blue;
+}
+.delete-container p {
+  margin: 10px;
+  color: white;
+}
+button {
+  background-color: transparent;
+  border-width: 0px;
+}
